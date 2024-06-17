@@ -1,0 +1,13 @@
+#spring:
+ # rabbitmq:
+  #  simple:
+   #   retry:
+    #    enabled: true
+     #   initial-interval: 2s
+      #  max-attempts: 5
+       # max-interval: 8s
+        #multiplier: 2.0
+        #stateless: true
+feign:
+  hystrix:
+    enabled: true
